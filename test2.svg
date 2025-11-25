@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150">
+  <rect x="0" y="0" width="300" height="150" fill="#0b1120"/>
+  <text x="20" y="80" fill="#f97316" font-size="20" font-family="sans-serif">
+    Script test – should NOT run
+  </text>
+  <script type="text/javascript">
+    alert("SVG script executed");
+    console.log("SVG script executed");
+  </script>
+</svg>
